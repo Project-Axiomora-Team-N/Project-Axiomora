@@ -7,6 +7,7 @@
 
 import Foundation
 
+// Encodable is used for efficient conversion to JSON
 struct UserModel: Encodable {
     
     let userId: String

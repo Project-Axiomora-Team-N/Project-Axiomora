@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D69155362F2DDD79004CE209 /* Exceptions for "App" folder in "Axiomora" target */ = {
+		D62096B52F31F098004D1127 /* Exceptions for "App" folder in "Axiomora" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,6 +21,14 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		D62096B02F31F098004D1127 /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D62096B52F31F098004D1127 /* Exceptions for "App" folder in "Axiomora" target */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		D69155082F2DBF2F004CE209 /* Resources */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Resources;
@@ -34,14 +42,6 @@
 		D691552B2F2DDD76004CE209 /* Core */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Core;
-			sourceTree = "<group>";
-		};
-		D69155312F2DDD79004CE209 /* App */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				D69155362F2DDD79004CE209 /* Exceptions for "App" folder in "Axiomora" target */,
-			);
-			path = App;
 			sourceTree = "<group>";
 		};
 		D69155482F2DDF32004CE209 /* Data */ = {
@@ -65,7 +65,7 @@
 		D69154E72F2DBEAD004CE209 = {
 			isa = PBXGroup;
 			children = (
-				D69155312F2DDD79004CE209 /* App */,
+				D62096B02F31F098004D1127 /* App */,
 				D691552B2F2DDD76004CE209 /* Core */,
 				D69155482F2DDF32004CE209 /* Data */,
 				D691550A2F2DC5F9004CE209 /* Features */,
@@ -98,9 +98,9 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				D62096B02F31F098004D1127 /* App */,
 				D69155082F2DBF2F004CE209 /* Resources */,
 				D691550A2F2DC5F9004CE209 /* Features */,
-				D69155312F2DDD79004CE209 /* App */,
 				D69155482F2DDF32004CE209 /* Data */,
 			);
 			name = Axiomora;
@@ -173,10 +173,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Axiomora/Info.plist;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Axiomora;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -204,10 +206,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Axiomora/Info.plist;
+				INFOPLIST_FILE = App/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Axiomora;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
